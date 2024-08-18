@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "../ui/button";
 import Image from "next/image";
+import BlobShape from "./BlobShape";
 
 export default function Hero() {
   const services = [
@@ -18,31 +19,39 @@ export default function Hero() {
     },
   ];
   return (
-    <section className="min-h-screen w-full p-0 m-0 flex flex-col justify-center items-center gap-24">
-      <div className="flex flex-row w-full items-center justify-center">
+    <section className="min-h-screen w-full p-0 m-0 flex flex-col justify-center items-center gap-24 ">
+      <div className="flex flex-col md:flex-row w-full items-center justify-center gap-4 md:gap-0">
         <div className="w-full md:w-1/2 flex justify-between flex-col gap-4">
           <div className="flex flex-col">
-            <span className="text-2xl">Hi, there!</span>
-            <h1 className="text-9xl">Luxe is here to be your assistance</h1>
+            <span className="text-xl md:text-2xl">Hi, there!</span>
+            <h1 className="text-5xl md:text-6xl">
+              Descubre el Método Revolucionario para Dominar el Español
+            </h1>
           </div>
-          <p className="text-2xl">
-            I am here ready to help you in making creative digital products
+          <p className="text-xl md:text-2xl">
+            Con Elena Octavia Mihalache, profesora acreditada en ELE y creadora
+            de un enfoque único para el aprendizaje del español.
           </p>
-          <Button size="sm" className="w-[180px] h-[60px] rounded-md text-xl">
-            Let&apos;s discuss
+          <Button size="sm" className="px-8 py-6 w-fit rounded-md text-xl">
+            Empieza Hoy
           </Button>
         </div>
-        <div className="w-full md:w-1/2 flex items-center justify-center">
-          <Image src='https://placehold.co/600x400@2x.png' className="w-[600px] h-[400px]" height={1000} width={1000} alt="image"/>
+        <div className="w-full md:w-1/2 flex items-center justify-center h-[276px] md:h-[368px]">
+          <BlobShape image="https://placehold.co/600x400@2x.png" />
         </div>
       </div>
-      <div className="w-full">
+      <div className="w-full flex flex-col gap-4">
         <h1 className="text-4xl">Our Service</h1>
-        <div className="flex flex-row justify-evenly">
+        <div className="flex w-full flex-col md:flex-row justify-evenly gap-4">
           {services.map((service, i) => (
-            <div key={i}>
-              <h2>{service.option}</h2>
-              <p>{service.detail}</p>
+            <div
+              key={i}
+              className={`flex flex-col gap-2 w-full md:w-1/${
+                services.length + 1
+              }`}
+            >
+              <h2 className="text-2xl md:text-4xl">{service.option}</h2>
+              <p className="text-xl md:text-2xl">{service.detail}</p>
             </div>
           ))}
         </div>
