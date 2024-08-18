@@ -1,0 +1,31 @@
+{
+  "NavBar": {
+    "Home": "Inicio",
+    "AboutMe": "Sobre Mí",
+    "Método": "Método",
+    "Services": "Servicios",
+    "Testimonials": "Testimonios",
+    "Contact": "Contacto"
+  },
+  "HomePage": {
+    "spanText": "¡Hola!",
+    "title": "Descubre el Método Revolucionario para Dominar el Español",
+    "subtitle": "Con Elena Octavia Mihalache, profesora acreditada en ELE y creadora de un enfoque único para el aprendizaje del español.",
+    "boutonPrin": "Empieza Hoy"
+  },
+  "ServicePage": {
+    "Service": "Nuestros servicios",
+    "First": {
+      "Title": "Marca",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "Second": {
+      "Title": "UI/UX",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "Third": {
+      "Title": "Diseño de productos",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+  }
+}

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const BlobShape = ({ image }:{image: string}) => {
+const BlobShape = ({ image }: { image: string }) => {
   return (
     <div className="relative w-full h-full">
       {/* Première forme avec bordure arrondie */}
@@ -27,8 +27,9 @@ const BlobShape = ({ image }:{image: string}) => {
         }}
       >
         <Image
+          className="w-auto h-full"
           src={image} // Utilisation de la prop `image`
-          alt="Image inside blob"
+          alt="Image inside blob "
           layout="fill"
           objectFit="cover"
         />

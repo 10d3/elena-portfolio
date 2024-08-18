@@ -1,0 +1,31 @@
+{
+  "NavBar": {
+    "Home": "Acasă",
+    "AboutMe": "Despre mine",
+    "Método": "Metodă",
+    "Services": "Servicii",
+    "Testimonials": "Testimoniale",
+    "Contact": "Contact"
+  },
+  "HomePage": {
+    "spanText": "Bună ziua!",
+    "title": "Descoperiți metoda revoluționară de a stăpâni limba spaniolă",
+    "subtitle": "Cu Elena Octavia Mihalache, profesor acreditat ELE și creatoare a unei abordări unice a învățării limbii spaniole.",
+    "boutonPrin": "Începeți astăzi"
+  },
+  "ServicePage": {
+    "Service": "Serviciile noastre",
+    "First": {
+      "Title": "Marca",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "Second": {
+      "Title": "UI/UX",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    "Third": {
+      "Title": "Designul produsului",
+      "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+  }
+}
