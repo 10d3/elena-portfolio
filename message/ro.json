@@ -27,5 +27,16 @@
       "Title": "Designul produsului",
       "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
+  },
+   "LocaleSwitcher": {
+    "label": "Schimbați limba",
+    "locale": {
+      "es": "🇪🇸 Spaniolă",
+      "ro": "🇷🇴 Română"
+    }
+  },
+  "Navigation": {
+    "home": "Acasă",
+    "pathnames": "Căi"
   }
 }

@@ -27,7 +27,7 @@ export default function Hero() {
   ];
 
   return (
-    <section className="min-h-screen w-full p-0 m-0 flex flex-col justify-center items-center gap-24 ">
+    <section className="min-h-screen w-full p-0 m-0 flex flex-col justify-center items-center gap-24">
       <div className="flex flex-col md:flex-row w-full items-center justify-center gap-4 md:gap-0">
         <div className="w-full md:w-1/2 flex justify-between flex-col gap-4">
           <div className="flex flex-col">

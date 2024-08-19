@@ -27,5 +27,16 @@
       "Title": "Diseño de productos",
       "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
+  },
+  "LocaleSwitcher": {
+    "label": "Cambiar idioma",
+    "locale": {
+      "es": "🇪🇸 Español",
+      "ro": "🇷🇴 Rumano"
+    }
+  },
+  "Navigation": {
+    "home": "Inicio",
+    "pathnames": "Rutas"
   }
 }
