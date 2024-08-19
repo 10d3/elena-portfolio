@@ -3,25 +3,29 @@ import { Button } from "../ui/button";
 import Image from "next/image";
 import BlobShape from "./BlobShape";
 import { useTranslations } from "next-intl";
+import { Atom, Baby, Paperclip } from "lucide-react";
 
 export default function Hero() {
   const t = useTranslations("HomePage");
-  const s = useTranslations("ServicePage")
+  const s = useTranslations("ServicePage");
   const services = [
     {
       option: s("First.Title"),
-      detail: s("First.Description")
+      detail: s("First.Description"),
+      icon: Paperclip,
     },
     {
       option: s("Second.Title"),
       detail: s("Second.Description"),
+      icon: Atom,
     },
     {
       option: s("Third.Title"),
       detail: s("Third.Description"),
+      icon: Baby,
     },
   ];
-  console.log(s("First.Title"))
+
   return (
     <section className="min-h-screen w-full p-0 m-0 flex flex-col justify-center items-center gap-24 ">
       <div className="flex flex-col md:flex-row w-full items-center justify-center gap-4 md:gap-0">
@@ -30,9 +34,7 @@ export default function Hero() {
             <span className="text-xl md:text-2xl">{t("spanText")}</span>
             <h1 className="text-5xl md:text-7xl">{t("title")}</h1>
           </div>
-          <p className="text-xl md:text-2xl">
-            {t("subtitle")}
-          </p>
+          <p className="text-xl md:text-2xl">{t("subtitle")}</p>
           <Button size="sm" className="px-8 py-6 w-fit rounded-md text-xl">
             {t("boutonPrin")}
           </Button>
@@ -51,8 +53,11 @@ export default function Hero() {
                 services.length + 1
               }`}
             >
-              <h2 className="text-2xl md:text-2xl">{service.option}</h2>
-              <p className="text-xl md:text-lg">{service.detail}</p>
+              <service.icon size={48}/>
+              <div>
+                <h2 className="text-2xl md:text-2xl">{service.option}</h2>
+                <p className="text-xl md:text-lg">{service.detail}</p>
+              </div>
             </div>
           ))}
         </div>

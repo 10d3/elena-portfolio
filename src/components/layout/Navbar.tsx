@@ -102,7 +102,7 @@ export default function NavBar() {
       </div>
       <div className="flex items-center justify-center flex-row gap-2">
         <div className="hidden md:flex">
-          <LangToggle />
+          {/* <LangToggle /> */}
         </div>
         <LangToggle />
       </div>
