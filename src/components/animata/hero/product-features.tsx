@@ -1,7 +1,6 @@
 import { ReactNode } from "react";
 import { HTMLMotionProps, motion, useSpring, useTransform } from "framer-motion";
 import Balancer from "react-wrap-balancer";
-
 import { cn } from "@/lib/utils";
 
 interface FeatureCardProps extends HTMLMotionProps<"div"> {

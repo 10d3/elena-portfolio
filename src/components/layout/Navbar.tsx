@@ -1,13 +1,13 @@
 import {
   Sheet,
-  SheetTrigger,
   SheetContent,
   SheetHeader,
   SheetTitle,
   SheetDescription,
   SheetFooter,
   SheetClose,
-} from "@/components/ui/sheet";
+  SheetTrigger,
+} from "../ui/sheet";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import { MenuIcon, MountainIcon } from "lucide-react";
@@ -32,7 +32,7 @@ export default function NavBar() {
     { nav: t("Contact"), href: `/${locale}/contact` },
   ];
   return (
-    <nav className="relative md:fixed top-0 flex h-auto md:h-20 w-full shrink-0 items-center p-0 md:px-24 justify-between">
+    <nav className="relative md:fixed top-0 flex h-auto md:h-20 w-full shrink-0 items-center p-0 md:px-48 justify-between">
       <Sheet>
         <SheetTrigger asChild>
           <Button

@@ -29,7 +29,7 @@ export default async function RootLayout({
   return (
     <html lang={locale} suppressHydrationWarning>
       <body
-        className={`relative flex min-h-screen flex-col items-center justify-between px-4 md:px-24 gap-4 md:gap-0 ${inter.className}`}
+        className={` relative flex min-h-screen flex-col items-center justify-between px-4 md:px-48 gap-4 md:gap-0 ${inter.className}`}
       >
         <NextIntlClientProvider messages={messages}>
           <NavBar />
