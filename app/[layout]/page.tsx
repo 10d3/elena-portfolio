@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex flex-col p-0 m-0 w-full gap-8">
+    <main className="flex flex-col p-0 m-0 w-full gap-8 pt-4">
       <Hero />
       {/* <ProductFeatures /> */}
       <SlackIntro/>
