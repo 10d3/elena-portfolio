@@ -38,5 +38,73 @@
   "Navigation": {
     "home": "Inicio",
     "pathnames": "Rutas"
+  },
+  "Presentation": {
+    "title": "¿Qué me hace diferente de los demás?",
+    "intro": "Soy Anna Raventós, marketer y coach de negocios online. Empecé a trabajar en el sector del marketing en 2016 como copywriter especializada en webinars.",
+    "first_webinar": "El primer webinar que escribí facturó €500.000 y ahí entendí que mi empatía y pasión por la psicología humana podían ayudar a muchas personas a vivir muy bien de su conocimiento.",
+    "image_alt": "Anna Raventós trabajando en su laptop",
+    "discomfort": "Aunque mis textos siempre lograron convertir a desconocidos en clientes, nunca terminé de sentirme cómoda usando técnicas de manipulación y escasez para vender.",
+    "spiritual_marketing": "Por eso llegó el día en el que decidí unir lo aprendido en mi práctica espiritual con el marketing tradicional, creando un enfoque honesto y respetuoso con las Leyes del Universo en el que las ventas se dan de forma natural."
+  },
+  "Testimonial": {
+    "title": "Testimonios de mis clientes",
+    "description": "Conoce la experiencia que han tenido algunos de los clientes que han trabajado conmigo.",
+    "Testimonials": {
+      "First": {
+        "Content": "Desde 2020 tengo el honor de contar con Anna como speaker de los eventos del MasterMind en los que siempre aporta muchísimo valor desvelando sus secretos de marketing.",
+        "Author": "Patrick Wind",
+        "Role": "CEO Ads Accelerator",
+        "ImageUrl": "/placeholder.svg?height=80&width=80"
+      },
+      "Second": {
+        "Content": "Anna posee una habilidad increíble para brindar claridad y visión de manera cercana y sumamente profesional. Captó mis objetivos y me dio herramientas que pude aplicar de inmediato.",
+        "Author": "Roberto Sánchez",
+        "Role": "Asesor de imagen",
+        "ImageUrl": "/placeholder.svg?height=80&width=80"
+      },
+      "Third": {
+        "Content": "He trabajado con muchos mentores en los últimos 12 años, y no ha habido ninguno que se haya implicado tanto en mi proyecto y que tuviera las ideas tan claras como Anna.",
+        "Author": "Ángel Alegre",
+        "Role": "Vivir al Máximo",
+        "ImageUrl": "/placeholder.svg?height=80&width=80"
+      },
+      "Fourth": {
+        "Content": "Anna es una mentora extremadamente generosa, brillante y ejecutiva. Me ha ayudado a simplificar mi negocio para que pueda centrarme en las áreas que más aporto.",
+        "Author": "Mireia Solsona",
+        "Role": "Etsy Lovers",
+        "ImageUrl": "/placeholder.svg?height=80&width=80"
+      }
+    }
+  },
+  "AchievementPage": {
+    "Title": "Estas son algunas de las cosas que conseguí con el marketing energético",
+    "ButtonText": "Conoce mi historia",
+    "Achievements": {
+      "First": {
+        "Highlight": "Llevar mi propia empresa Instituto Webinar de 0 a más de 3.5M€ de facturación",
+        "Description": "en tan solo 3 años desde su formación."
+      },
+      "Second": {
+        "Highlight": "Cumplir mi sueño de vivir viajado en 2022, año en el que visité 14 países",
+        "Description": "mientras seguía haciendo crecer mi empresa."
+      },
+      "Third": {
+        "Highlight": "Transformar a más de +33.000 personas con mis clases online",
+        "Description": "en las que enseño a vender con estabilidad con mi propia metodología."
+      },
+      "Fourth": {
+        "Highlight": "Mudarme a Andorra y luego a Dubai, donde resido ahora",
+        "Description": "y me inspira por su mentalidad de crecimiento y apertura a la espiritualidad."
+      },
+      "Fifth": {
+        "Highlight": "Crear 8 guiones de webinars que facturan más de 1 millón al año",
+        "Description": "e impactan de forma positiva al mundo gracias a las ventas."
+      },
+      "Sixth": {
+        "Highlight": "Convertir mi negocio en mi mayor fuente de abundancia y crecimiento personal",
+        "Description": "porque me genera ventas sin comprometer mi libertad."
+      }
+    }
   }
 }

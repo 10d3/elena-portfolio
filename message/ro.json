@@ -28,7 +28,7 @@
       "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
   },
-   "LocaleSwitcher": {
+  "LocaleSwitcher": {
     "label": "Schimbați limba",
     "locale": {
       "es": "🇪🇸 Spaniolă",
@@ -38,5 +38,73 @@
   "Navigation": {
     "home": "Acasă",
     "pathnames": "Căi"
+  },
+  "Presentation": {
+    "title": "Ce mă face diferit de ceilalți?",
+    "intro": "Sunt Anna Raventós, marketer și coach de afaceri online. Am început să lucrez în sectorul marketingului în 2016 ca copywriter specializat în webinarii.",
+    "first_webinar": "Primul webinar pe care l-am scris a generat €500.000 și atunci am înțeles că empatia și pasiunea mea pentru psihologia umană ar putea ajuta multe persoane să trăiască bine de pe urma cunoștințelor lor.",
+    "image_alt": "Anna Raventós lucrând la laptopul ei",
+    "discomfort": "Deși textele mele au reușit întotdeauna să transforme necunoscuții în clienți, nu m-am simțit niciodată confortabil folosind tehnici de manipulare și de creare a sentimentului de lipsă pentru a vinde.",
+    "spiritual_marketing": "De aceea a venit ziua când am decis să unesc ceea ce am învățat în practica mea spirituală cu marketingul tradițional, creând o abordare onestă și respectuoasă față de Legile Universului în care vânzările se fac în mod natural."
+  },
+  "Testimonial": {
+    "title": "Testimoniale de la clienții mei",
+    "description": "Descoperiți experiențele pe care le-au avut unii dintre clienții care au lucrat cu mine.",
+    "Testimonials": {
+      "First": {
+        "Content": "Din 2020 am onoarea să o am pe Anna ca speaker la evenimentele MasterMind, unde aduce întotdeauna o valoare extraordinară dezvăluind secretele ei de marketing.",
+        "Author": "Patrick Wind",
+        "Role": "CEO Ads Accelerator",
+        "ImageUrl": "/placeholder.svg?height=80&width=80"
+      },
+      "Second": {
+        "Content": "Anna are o abilitate incredibilă de a oferi claritate și viziune într-un mod apropiat și extrem de profesionist. Ea mi-a înțeles obiectivele și mi-a oferit instrumente pe care le-am putut aplica imediat.",
+        "Author": "Roberto Sánchez",
+        "Role": "Consultant de imagine",
+        "ImageUrl": "/placeholder.svg?height=80&width=80"
+      },
+      "Third": {
+        "Content": "Am lucrat cu mulți mentori în ultimii 12 ani și nu a fost nimeni care să se implice atât de mult în proiectul meu și să aibă idei atât de clare precum Anna.",
+        "Author": "Ángel Alegre",
+        "Role": "Trăiește la Maximum",
+        "ImageUrl": "/placeholder.svg?height=80&width=80"
+      },
+      "Fourth": {
+        "Content": "Anna este o mentore extrem de generoasă, strălucitoare și executivă. M-a ajutat să simplific afacerea mea pentru a mă concentra pe zonele unde pot aduce cea mai mare valoare.",
+        "Author": "Mireia Solsona",
+        "Role": "Etsy Lovers",
+        "ImageUrl": "/placeholder.svg?height=80&width=80"
+      }
+    }
+  },
+  "AchievementPage": {
+    "Title": "Estas son algunas de las cosas que conseguí con el marketing energético",
+    "ButtonText": "Conoce mi historia",
+    "Achievements": {
+      "First": {
+        "Highlight": "Llevar mi propia empresa Instituto Webinar de 0 a más de 3.5M€ de facturación",
+        "Description": "en tan solo 3 años desde su formación."
+      },
+      "Second": {
+        "Highlight": "Cumplir mi sueño de vivir viajado en 2022, año en el que visité 14 países",
+        "Description": "mientras seguía haciendo crecer mi empresa."
+      },
+      "Third": {
+        "Highlight": "Transformar a más de +33.000 personas con mis clases online",
+        "Description": "en las que enseño a vender con estabilidad con mi propia metodología."
+      },
+      "Fourth": {
+        "Highlight": "Mudarme a Andorra y luego a Dubai, donde resido ahora",
+        "Description": "y me inspira por su mentalidad de crecimiento y apertura a la espiritualidad."
+      },
+      "Fifth": {
+        "Highlight": "Crear 8 guiones de webinars que facturan más de 1 millón al año",
+        "Description": "e impactan de forma positiva al mundo gracias a las ventas."
+      },
+      "Sixth": {
+        "Highlight": "Convertir mi negocio en mi mayor fuente de abundancia y crecimiento personal",
+        "Description": "porque me genera ventas sin comprometer mi libertad."
+      }
+    }
   }
 }

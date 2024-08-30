@@ -1,6 +1,7 @@
 import React from "react";
 import { Sparkles } from "lucide-react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 interface Testimonial {
   content: string;
@@ -9,48 +10,43 @@ interface Testimonial {
   imageUrl: string;
 }
 
-const testimonials: Testimonial[] = [
-  {
-    content:
-      "Desde 2020 tengo el honor de contar con Anna como speaker de los eventos del MasterMind en los que siempre aporta muchísimo valor desvelando sus secretos de marketing.",
-    author: "Patrick Wind",
-    role: "CEO Ads Accelerator",
-    imageUrl: "/placeholder.svg?height=80&width=80",
-  },
-  {
-    content:
-      "Anna posee una habilidad increíble para brindar claridad y visión de manera cercana y sumamente profesional. Captó mis objetivos y me dio herramientas que pude aplicar de inmediato.",
-    author: "Roberto Sánchez",
-    role: "Asesor de imagen",
-    imageUrl: "/placeholder.svg?height=80&width=80",
-  },
-  {
-    content:
-      "He trabajado con muchos mentores en los últimos 12 años, y no ha habido ninguno que se haya implicado tanto en mi proyecto y que tuviera las ideas tan claras como Anna.",
-    author: "Ángel Alegre",
-    role: "Vivir al Máximo",
-    imageUrl: "/placeholder.svg?height=80&width=80",
-  },
-  {
-    content:
-      "Anna es una mentora extremadamente generosa, brillante y ejecutiva. Me ha ayudado a simplificar mi negocio para que pueda centrarme en las áreas que más aporto.",
-    author: "Mireia Solsona",
-    role: "Etsy Lovers",
-    imageUrl: "/placeholder.svg?height=80&width=80",
-  },
-];
-
 export default function Testimonial() {
+  const s = useTranslations("Testimonial");
+  console.log(s("Testimonials.First.Content"));
+  const testimonials = [
+    {
+      content: s("Testimonials.First.Content"),
+      author: s("Testimonials.First.Author"),
+      role: s("Testimonials.First.Role"),
+      imageUrl: s("Testimonials.First.ImageUrl"),
+    },
+    {
+      content: s("Testimonials.Second.Content"),
+      author: s("Testimonials.Second.Author"),
+      role: s("Testimonials.Second.Role"),
+      imageUrl: s("Testimonials.Second.ImageUrl"),
+    },
+    {
+      content: s("Testimonials.Third.Content"),
+      author: s("Testimonials.Third.Author"),
+      role: s("Testimonials.Third.Role"),
+      imageUrl: s("Testimonials.Third.ImageUrl"),
+    },
+    {
+      content: s("Testimonials.Fourth.Content"),
+      author: s("Testimonials.Fourth.Author"),
+      role: s("Testimonials.Fourth.Role"),
+      imageUrl: s("Testimonials.Fourth.ImageUrl"),
+    },
+  ];
+
   return (
     <div className="max-w-6xl mx-auto px-4 py-12 font-sans">
       <h2 className="text-4xl font-bold mb-4 text-center">
         <Sparkles className="inline-block w-8 h-8 text-pink-500 mr-2" />
-        <span className="text-pink-500">Testimonios</span> de mis clientes
+        {s("title")}
       </h2>
-      <p className="text-center text-gray-600 mb-12">
-        Conoce la experiencia que han tenido algunos de los clientes que han
-        trabajado conmigo.
-      </p>
+      <p className="text-center text-gray-600 mb-12">{s("description")}</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {testimonials.map((testimonial, index) => (
@@ -71,8 +67,7 @@ export default function Testimonial() {
                 <p className="text-sm text-gray-600">{testimonial.role}</p>
               </div>
             </div>
-            <div className="absolute top-4 right-4 text-6xl text-pink-500 opacity-50">
-            </div>
+            <div className="absolute top-4 right-4 text-6xl text-pink-500 opacity-50"></div>
           </div>
         ))}
       </div>
