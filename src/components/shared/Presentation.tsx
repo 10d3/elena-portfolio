@@ -15,13 +15,13 @@ export default function Presentation() {
 
       <p className="mb-4 text-justify">{t("first_webinar")}</p>
 
-      <div className="relative mb-6">
+      <div className="relative mb-6 w-full">
         <Image
           width={1000}
           height={1000}
           src="/placeholder.svg?height=400&width=600"
           alt={t("image_alt")}
-          className="rounded-lg shadow-lg"
+          className="rounded-lg shadow-lg w-full"
         />
         <Sparkles className="absolute top-2 right-2 w-6 h-6 text-pink-500" />
       </div>
