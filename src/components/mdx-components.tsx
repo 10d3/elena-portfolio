@@ -20,7 +20,7 @@ interface MdxProps {
 export function MDXContent({ code }: MdxProps) {
   const Component = useMDXComponent(code);
   return (
-    <div className="mdx-content">
+    <div className="mdx-content w-full">
       <Component components={components} />
     </div>
   );
