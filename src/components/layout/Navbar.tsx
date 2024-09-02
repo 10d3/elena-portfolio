@@ -30,6 +30,7 @@ export default function NavBar() {
     { nav: t("Services"), href: `/${locale}/service` },
     { nav: t("Testimonials"), href: `/${locale}/testimonials` },
     { nav: t("Contact"), href: `/${locale}/contact` },
+    { nav: t("Blog"), href: `/${locale}/blog` },
   ];
   return (
     <nav className="relative md:fixed top-0 flex h-auto md:h-20 w-full shrink-0 items-center p-0 md:px-24 justify-between">

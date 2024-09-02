@@ -78,7 +78,6 @@ export default async function PostPage({ params }: PostPageProps) {
   if (!post || !post.published) {
     notFound();
   }
-  console.log(post.body)
 
   return (
     <article className=" md:py-6 prose dark:prose-invert md:max-w-3xl mx-auto min-h-screen w-full md:pt-32 gap-24">
