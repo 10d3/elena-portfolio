@@ -10,7 +10,7 @@ export default function page() {
         {displayPosts?.length > 0 ? (
           <ul className="flex flex-col">
             {displayPosts.map((post) => {
-              const { slug, date, title, description, tags } = post;
+              const { slug, date, title, description, tags, image } = post;
               return (
                 <li key={slug}>
                   <PostItem
@@ -19,6 +19,7 @@ export default function page() {
                     title={title}
                     description={description}
                     tags={tags}
+                    image = {image}
                   />
                 </li>
               );

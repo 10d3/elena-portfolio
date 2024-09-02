@@ -30,6 +30,7 @@ const posts = defineCollection({
       body: s.mdx(),
       description: s.string().max(999).optional(),
       tags: s.array(s.string()).optional(),
+      image: s.string().optional()
     })
     // more additional fields (computed fields)
     .transform(computedFields),

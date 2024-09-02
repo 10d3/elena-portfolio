@@ -4,6 +4,7 @@ import { cn, formatDate } from "@/lib/utils";
 import { buttonVariants } from "../ui/button";
 import { Tag } from "./tag";
 import { useLocale } from "next-intl"; // Importer useLocale
+import Image from "next/image";
 
 interface PostItemProps {
   slug: string;
@@ -11,6 +12,7 @@ interface PostItemProps {
   description?: string;
   date: string;
   tags?: Array<string>;
+  image?:string
 }
 
 export function PostItem({
@@ -19,16 +21,21 @@ export function PostItem({
   description,
   date,
   tags,
+  image
 }: PostItemProps) {
   const locale = useLocale(); // Utiliser useLocale pour obtenir la locale courante
+  console.log(image)
 
   return (
     <article className="flex flex-col gap-2 border-border border-b py-3">
-      <div>
+      <div className="w-full flex flex-col gap-4">
         <h2 className="text-2xl font-bold">
           {/* Modifier le lien pour inclure la locale */}
           <Link href={`/${locale}/${slug}`}>{title}</Link>
         </h2>
+        <div className="w-full">
+        {image && <Image src={`${image}`} width={1000} height={1000} alt={`image of ${title}`}/>}
+        </div>
       </div>
       <div className="flex gap-2">
         {tags?.map((tag) => (
